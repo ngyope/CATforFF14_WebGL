@@ -21,3 +21,8 @@ AddEncoding gzip .jsgz
 AddEncoding gzip .datagz
 AddEncoding gzip .memgz
 AddEncoding gzip .unity3dgz
+
+AddType application/octet-stream .memgz
+AddType application/octet-stream .datagz
+
+
